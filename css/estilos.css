@@ -101,6 +101,7 @@ nav ul {
 nav ul li {
     width: 130px;
     background-color: #DB9F16;
+    
 }
 
 
@@ -113,6 +114,7 @@ con la clase navegación y solo las li van a tener dichas propuedades*/
 
 nav .ingreso ul li {
     width: 100%;
+    margin: 0px;
 }
 
 nav ul li a {
@@ -124,6 +126,7 @@ nav ul li a {
     padding: 15px 2px;
     text-align: center;
     border-bottom: 2px solid #fff;
+    
 }
 
 /*Recuerde hover es una pseudo-clase
@@ -148,7 +151,7 @@ nav ul li:hover>ul {
 }
 
 nav .ingreso li ul {
-    width: 12.2%;
+    width: 14.9%;
     /*Se coloca un ancho al elemento de la clase ingreso
 que sea acorde a lo que se necesita*/
 }

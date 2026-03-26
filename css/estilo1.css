@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.titulo {
+    width: 100%;
+    height: 50px;
+    padding: 52px;
+    background-color: rgba(0, 0, 0);
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    text-align: center;
+    /*aumentar el titulo puede ser h1 pero...*/
+    font-size: 25px;
+    /*puede ser 2em*/
+}
+
+.contenedor {
+    width: 99%;
+    max-width: 1280px;
+    margin: auto;
+    /*quede centrado*/
+}
+
+body {
+
+    background-image: url('../img/fondo.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*la imagen se quede fija*/
+    font-family: 'Chelsea Market', cursive;
+}
+
+nav {
+    background-color: #ffffff; /*OJO*/
+}
+
+nav ul li a{
+    
+}
+

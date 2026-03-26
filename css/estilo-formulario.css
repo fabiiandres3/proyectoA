@@ -3,8 +3,9 @@
 
 body {
     font-family: 'Dancing Script', cursive;
-    background: #252121;
+    background-image: url(../img/fondo-form.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 h1 {
@@ -16,10 +17,8 @@ h1 {
 }
 
 .row {
-    background-image: url(../img/login.jpg);
     /*Se agrega una imagen de fondo para el
 ingreso.html*/
-    background-size: cover;
     width: 420px;
     height: 450px;
     padding: 10px;
